@@ -43,7 +43,7 @@ I'm a passionate **Systems Programming** and **Full-Stack Developer** currently 
 ### 🎮 [Transcendence](https://github.com/jainavas/transcendence) - *Full-Stack Web Application*
 > **Real-time multiplayer Pong game platform with social features**
 
-**Stack**: React, NestJS, PostgreSQL, Docker, WebSockets  
+**Stack**: Tailwind CSS, NodeJS, SQLite, Docker, Typescript, BabylonJS  
 **Key Features**:
 - 🔐 **Secure Authentication** - JWT-based user management
 - 🎮 **Real-time Gaming** - WebSocket-powered multiplayer Pong
