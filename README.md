@@ -1,174 +1,196 @@
-# Hi there, I'm Jaime Navascués 👋
+# Hi, I'm Jaime Navascués 👋
 
-<div align="center">
-  
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D4AA&center=true&vCenter=true&width=600&lines=Systems+Programming+Enthusiast;Full-Stack+Developer;42+School+Student;Open+to+International+Opportunities)](https://git.io/typing-svg)
+**Software Developer | Systems Programming • AI • Data Engineering**
 
-</div>
-
-## 🚀 About Me
-
-I'm a passionate **Systems Programming** and **Full-Stack Developer** currently studying at **42 Madrid**, part of the prestigious 42 Network. I specialize in low-level programming with C/C++ and have experience building robust, scalable applications following strict coding standards and best practices.
-
-- 🎓 **42 Madrid Student** - Rigorous peer-to-peer learning environment
-- 💻 **Specializing in**: Systems Programming, Web Development, Unix/Linux
-- 🌍 **Looking for**: International opportunities as a Software Developer
-- 🎯 **Focus**: Clean code, modular architecture, and performance optimization
-- 🔧 **Philosophy**: Write code that's maintainable, documented, and follows industry standards
-
-## 🛠️ Tech Stack
-
-### Languages
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
-### Frameworks & Technologies
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-20232A?style=for-the-badge&logo=fastify&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![ELK Stack](https://img.shields.io/badge/ELK_Stack-005571?style=for-the-badge&logo=elastic&logoColor=white)
-
-### Tools & Systems
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)
-
-## 🏆 Featured Projects
-
-### 🎮 [Transcendence](https://github.com/jainavas/transcendence) - *Full-Stack Web Application*
-> **Real-time multiplayer Pong game platform with social features**
-
-**Stack**: Tailwind CSS, NodeJS, SQLite, Docker, Typescript, BabylonJS  
-**Key Features**:
-- 🔐 **Secure Authentication** - JWT-based user management
-- 🎮 **Real-time Gaming** - WebSocket-powered multiplayer Pong
-- 👥 **Social Platform** - User profiles, friends, chat system
-- 🏆 **Tournament System** - Competitive matchmaking
-- 🐳 **Containerized** - Full Docker deployment setup
-
-**Highlights**: Built from scratch using modern web technologies, focusing on real-time communication, security, and scalable architecture.
+Currently pursuing **42 Outer Core** (Data Engineering specialization) at 42 Madrid after completing the Common Core in 8 months. Passionate about building efficient systems, intelligent algorithms, and scalable data solutions.
 
 ---
 
-### 🐚 [Minishell](https://github.com/jainavas/minishell) - *Unix Shell Implementation*
-> **Custom shell interpreter built from scratch in C**
+## 🎯 About Me
 
-**Stack**: C, Unix System Calls, Process Management  
-**Key Features**:
-- 📝 **Command Parsing** - Lexical analysis and command interpretation
-- 🔀 **Pipes & Redirections** - Complex I/O operations
-- 🌐 **Environment Variables** - Full variable expansion support
-- 🏗️ **Built-in Commands** - cd, echo, pwd, export, unset, env, exit
-- 🔄 **Process Management** - Fork, exec, and signal handling
-
-**Highlights**: Deep dive into Unix internals, file descriptors, and process synchronization. Strict adherence to memory management and 42's coding standards.
+- 🎓 **42 Madrid** - Completed Common Core (6% graduation rate) in 8 months
+- 📊 **Focus**: Systems Programming, AI/ML, Data Engineering
+- 💻 **Core Skills**: C/C++, Python, TypeScript, Node.js
+- 🌍 **Location**: Madrid, Spain
+- 🔗 **Portfolio**: [jainavas.me](https://jainavas.me)
 
 ---
 
-### 🎯 [Cub3D](https://github.com/jainavas/cub3d) - *3D Graphics Engine*
-> **Raycasting-based 3D game engine inspired by Wolfenstein 3D**
+## 🚀 Featured Projects
 
-**Stack**: C, miniLibX, Mathematical Algorithms  
+### 🎮 [Transcendence](https://github.com/jainavas/transcendence) - Full-Stack Web Application
+*42 Common Core Final Project | Success Rate: 7%*
+
+Real-time multiplayer Pong platform with advanced features and modern web architecture.
+
+**Tech Stack**: TypeScript, Node.js (Fastify), SQLite, Docker, Babylon.js, Tailwind CSS
+
 **Key Features**:
-- 🎨 **Raycasting Engine** - Real-time 3D rendering from 2D maps
-- 🎮 **Interactive Gameplay** - Smooth player movement and collision detection
-- 🗺️ **Map Parsing** - Custom map format with texture support
-- ⚡ **Performance Optimized** - Efficient algorithms for real-time rendering
+- 🏓 **4-player game mode** with 3D graphics (Babylon.js)
+- 🤖 **AI opponent** with predictive behavior algorithms
+- 🔐 **OAuth authentication** (Google Sign-in) + 2FA
+- 💬 **Real-time chat** via WebSockets
+- 📊 **User dashboards** with statistics and leaderboards
+- 🏆 **Tournament system** with matchmaking
+- 📈 **Infrastructure monitoring** (Grafana + Prometheus)
+- 🌐 **Multi-language support** (i18n)
 
-**Highlights**: Mathematical precision in graphics programming, optimization techniques, and low-level graphics manipulation.
+**Highlights**: Built from scratch emphasizing real-time communication, security, scalability, and modern DevOps practices. Implements 7 major modules including microservices architecture.
 
 ---
 
-### 🐳 [Inception](https://github.com/jainavas/inception) - *Infrastructure as Code*
-> **Multi-container application setup with Docker Compose**
+### 🧠 [Gomoku](https://github.com/jainavas/gomoku) - AI Game Engine
+*42 Outer Core | 302 campus completions*
 
-**Stack**: Docker, Docker Compose, Nginx, WordPress, MariaDB  
+Competitive AI for Gomoku using advanced game theory algorithms.
+
+**Tech Stack**: C++, SFML, Minimax with Alpha-Beta Pruning
+
 **Key Features**:
-- 🏗️ **Container Orchestration** - Multi-service architecture
-- 🔐 **Security Configuration** - SSL/TLS, network isolation
-- 📊 **Database Management** - MariaDB with persistent volumes  
-- 🌐 **Reverse Proxy** - Nginx load balancing and routing
-- 🚀 **Automated Deployment** - Infrastructure as Code principles
+- ⚡ **High-performance AI**: Predicts 10 moves deep in 0.5 seconds
+- 🎯 **Pattern recognition** heuristics for tactical evaluation
+- 🛡️ **Stone capture mechanics** and illegal move detection
+- 🎨 **Graphical interface** with real-time move suggestions
+- 📊 **Performance metrics** display
 
-**Highlights**: DevOps practices, containerization strategies, and production-ready deployment configurations.
+**Highlights**: Demonstrates deep understanding of game theory, optimization techniques, and algorithmic efficiency. Capable of consistently defeating human players.
 
-## 📊 GitHub Stats
+---
 
-<div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jainavas&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+### 🌿 [Leaffliction](https://github.com/jainavas/leaffliction) - Computer Vision Pipeline
+*42 Outer Core | 161 campus completions*
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jainavas&layout=compact&theme=tokyonight&hide_border=true)
+Plant disease classification system using deep learning and computer vision.
 
-</div>
+**Tech Stack**: Python, TensorFlow/PyTorch, OpenCV
 
-## 🎯 Core Competencies
+**Key Features**:
+- 🔬 **Dataset analysis** with comprehensive visualization
+- 🔄 **Data augmentation** (rotation, distortion, scaling)
+- 🧠 **Transfer learning** for model training
+- 📈 **>90% accuracy** on validation set
+- 🖼️ **Feature extraction** using image transformation methods
 
-**Systems Programming**
-- Memory management and optimization
-- Unix/Linux system calls and internals
-- Concurrent programming and synchronization
-- Network programming (sockets, protocols)
+**Highlights**: End-to-end machine learning pipeline from data preprocessing to model deployment, showcasing practical AI application in agriculture.
 
-**Software Development**
-- Clean code principles and design patterns
-- Test-driven development (TDD)
-- Version control with Git (advanced workflows)
-- Code review and collaborative development
+---
 
-**Problem Solving**
-- Algorithm design and optimization
-- Complex debugging and profiling
-- Performance analysis and bottleneck identification
-- Mathematical programming and computational thinking
+### 🐚 [Minishell](https://github.com/jainavas/minishell) - Unix Shell Implementation
+*42 Common Core*
 
-## 🌟 42 School Achievements
+Custom shell interpreter built from scratch in C, mimicking bash behavior.
 
-- 🏅 **Consistent High Grades** - Maintaining excellence across all projects
-- 🤝 **Peer Evaluation** - Active contributor to the peer-to-peer learning system
-- 📚 **Mentorship** - Helping fellow students with complex algorithms and debugging
-- 🚀 **Innovation** - Going beyond requirements to implement additional features
+**Tech Stack**: C, Unix System Calls, Process Management
 
-## 🎓 Education & Learning
+**Key Features**:
+- 📝 **Command parsing** with lexical analysis
+- 🔀 **Pipes & redirections** for complex I/O operations
+- 🌐 **Environment variables** with full expansion support
+- 🏗️ **Built-in commands**: cd, echo, pwd, export, unset, env, exit
+- 🔄 **Process management**: fork, exec, signal handling
 
-**42 Madrid** *(2023 - Present)*
-- Intensive computer science program
-- Project-based learning with real-world applications
-- Peer-to-peer education model
-- Focus on autonomy, rigor, and collaboration
+**Highlights**: Deep dive into Unix internals, file descriptors, process synchronization, and strict memory management following 42's rigorous coding standards.
 
-**Continuous Learning**
-- Advanced C/C++ programming techniques
-- Modern web development frameworks
-- DevOps and cloud technologies
-- Open source contribution
+---
 
-## 🌍 Let's Connect!
+### 🎯 [Cub3D](https://github.com/jainavas/cub3d) - 3D Graphics Engine
+*42 Common Core*
 
-I'm actively seeking **international opportunities** as a Software Developer. I'm passionate about:
-- **Systems Programming** - Building efficient, low-level solutions
-- **Full-Stack Development** - Creating complete, user-focused applications  
-- **Technical Challenges** - Solving complex problems with elegant code
-- **Team Collaboration** - Contributing to innovative projects with talented developers
+Raycasting-based 3D game engine inspired by Wolfenstein 3D.
 
-### 📫 How to reach me:
-- 💼 **LinkedIn**: [linkedin.com/in/jaime-navascues](https://www.linkedin.com/in/jaime-navascu%C3%A9s-pe%C3%B1a-296825222/)
-- 📧 **Email**: jaimeipod99@gmail.com
+**Tech Stack**: C, miniLibX, Mathematical Algorithms
+
+**Key Features**:
+- 🎨 **Raycasting engine** for real-time 3D rendering from 2D maps
+- 🎮 **Interactive gameplay** with smooth movement and collision detection
+- 🗺️ **Custom map parser** with texture support
+- ⚡ **Performance optimized** for real-time rendering
+
+**Highlights**: Mathematical precision in graphics programming and low-level graphics manipulation.
+
+---
+
+### 🐳 [Inception](https://github.com/jainavas/inception) - Infrastructure as Code
+*42 Common Core*
+
+Multi-container Docker application with production-ready infrastructure.
+
+**Tech Stack**: Docker, Docker Compose, Nginx, WordPress, MariaDB
+
+**Key Features**:
+- 🏗️ **Container orchestration** with multi-service architecture
+- 🔐 **Security configuration**: SSL/TLS, network isolation
+- 📊 **Database management** with persistent volumes
+- 🌐 **Reverse proxy** with Nginx load balancing
+- 🚀 **Automated deployment** following IaC principles
+
+**Highlights**: DevOps best practices, containerization strategies, and scalable deployment configurations.
+
+---
+
+## 💻 Technical Skills
+
+**Languages**
+- **Systems**: C, C++
+- **General Purpose**: Python, TypeScript, JavaScript, Bash
+- **Query**: SQL
+
+**Web & Frameworks**
+- **Backend**: Node.js, Fastify, Express
+- **Frontend**: React, Tailwind CSS, HTML/CSS
+- **Graphics**: Babylon.js, SFML, miniLibX
+
+**Data & AI**
+- **Machine Learning**: TensorFlow, PyTorch, scikit-learn
+- **Computer Vision**: OpenCV, Image Processing
+- **Algorithms**: Minimax, Alpha-Beta Pruning, Transfer Learning, Data Augmentation
+
+**Databases**
+- PostgreSQL, MongoDB, SQLite
+
+**DevOps & Tools**
+- **Containers**: Docker, Docker Compose
+- **Monitoring**: Grafana, Prometheus
+- **Version Control**: Git, GitHub
+- **OS**: Linux, Unix, Bash scripting
+
+**Soft Skills**
+- Autonomous learning, Problem-solving, Collaborative teamwork, Adaptability
+
+---
+
+## 🏆 Achievements
+
+- ✅ **42 Common Core** completed in 8 months (average: 3 years)
+- 🎯 **Top-tier projects**: Transcendence (7% success rate), Gomoku, Leaffliction
+- 🤝 **University tutor** for C/C++ (12 students, 100% pass rate)
+- 📚 **Active contributor** to 42's peer-to-peer learning system
+- 🚀 **Continuous learner** in Data Engineering, AI, and modern DevOps
+
+---
+
+## 📊 Current Focus
+
+- 📈 **Data Engineering**: Building scalable data pipelines and distributed systems
+- 🤖 **Machine Learning**: Deep learning, computer vision, reinforcement learning
+- 🌐 **Modern Web**: Full-stack development with TypeScript and Node.js
+- ⚙️ **DevOps**: Container orchestration, infrastructure automation, monitoring
+
+---
+
+## 📫 Get In Touch
+
+- 💼 **LinkedIn**: [linkedin.com/in/jaimenavascues-p](https://www.linkedin.com/in/jaimenavascues-p/)
+- 📧 **Email**: [jaimeipod99@gmail.com](mailto:jaimeipod99@gmail.com)
+- 🌐 **Website**: [jainavas.me](https://jainavas.me)
 - 🐙 **GitHub**: You're already here!
 
 ---
 
 <div align="center">
+  
+### 💡 Open to opportunities in Software Development, Data Engineering, and AI/ML
 
-### 💭 *"Code is like humor. When you have to explain it, it's bad."* - Cory House
-
-**Thanks for visiting my profile! Let's build something amazing together!** 🚀
+*"Building efficient systems and intelligent solutions, one line of code at a time."*
 
 </div>
