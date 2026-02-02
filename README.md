@@ -1,196 +1,246 @@
 # Hi, I'm Jaime Navascués 👋
 
-**Software Developer | Systems Programming • AI • Data Engineering**
+**Embedded Systems Engineer • Data Engineer**
 
-Currently pursuing **42 Outer Core** (Data Engineering specialization) at 42 Madrid after completing the Common Core in 8 months. Passionate about building efficient systems, intelligent algorithms, and scalable data solutions.
+42 Madrid graduate specializing in **low-level systems programming (C/C++)** and **data pipeline engineering (Python)**. Completed Common Core in 8 months (6% graduation rate), now pursuing **42 Outer Core - Data Engineering** track.
 
 ---
 
 ## 🎯 About Me
 
-- 🎓 **42 Madrid** - Completed Common Core (6% graduation rate) in 8 months
-- 📊 **Focus**: Systems Programming, AI/ML, Data Engineering
-- 💻 **Core Skills**: C/C++, Python, TypeScript, Node.js
-- 🌍 **Location**: Madrid, Spain
+- 🎓 **42 Madrid** - Common Core completed in 8 months (6% graduation rate)
+- 📚 **Currently**: 42 Outer Core (Data Engineering specialization)
+- 💼 **Seeking**: Embedded Software Engineer (C/C++) OR Data Engineer roles
+- 💻 **Core Stack**: C, C++, Python, SQL, Docker, Git
+- 🌍 **Location**: Madrid, Spain 🇪🇸
 - 🔗 **Portfolio**: [jainavas.me](https://jainavas.me)
 
 ---
 
-## 🚀 Featured Projects
+## 🔧 Embedded Systems & Low-Level Programming
 
-### 🎮 [Transcendence](https://github.com/jainavas/transcendence) - Full-Stack Web Application
-*42 Common Core Final Project | Success Rate: 7%*
+### ⚔️ [War](https://github.com/jainavas/war) - CoreWar Virtual Machine & Obfuscator
+*42 Outer Core | NEW - January 2026*
 
-Real-time multiplayer Pong platform with advanced features and modern web architecture.
+Virtual machine implementation for CoreWar with advanced code obfuscation tools.
 
-**Tech Stack**: TypeScript, Node.js (Fastify), SQLite, Docker, Babylon.js, Tailwind CSS
+**Tech Stack**: C, Assembly, Python, ELF Binary Format
 
 **Key Features**:
-- 🏓 **4-player game mode** with 3D graphics (Babylon.js)
-- 🤖 **AI opponent** with predictive behavior algorithms
-- 🔐 **OAuth authentication** (Google Sign-in) + 2FA
-- 💬 **Real-time chat** via WebSockets
-- 📊 **User dashboards** with statistics and leaderboards
-- 🏆 **Tournament system** with matchmaking
-- 📈 **Infrastructure monitoring** (Grafana + Prometheus)
-- 🌐 **Multi-language support** (i18n)
+- 🖥️ **Virtual Machine**: Custom VM architecture for executing champion programs
+- 🔐 **Code Obfuscator**: 100% reversible C source obfuscation tool (Python)
+- 📊 **Visual Illegibility**: Uses confusing character combinations (O/0/l/1/I/_)
+- 🛡️ **Protection System**: Preserves C keywords, stdlib, ELF structures, POSIX API
+- 🔄 **Deterministic**: Reproducible obfuscation with seed parameter
+- 📁 **Dual Mode**: Single-file and directory batch processing
+- 🧪 **Zero Dependencies**: Pure Python 3 standard library
 
-**Highlights**: Built from scratch emphasizing real-time communication, security, scalability, and modern DevOps practices. Implements 7 major modules including microservices architecture.
+**Embedded Relevance**: Virtual machine design, low-level memory management, assembly language, binary format understanding, toolchain development.
 
 ---
 
-### 🧠 [Gomoku](https://github.com/jainavas/gomoku) - AI Game Engine
-*42 Outer Core | 302 campus completions*
+### 🐚 [Minishell](https://github.com/jainavas/minishell) - Unix Shell Implementation ⭐ 1
+*42 Common Core | Systems Programming*
 
-Competitive AI for Gomoku using advanced game theory algorithms.
+Full-featured Bash-like shell with process management, pipelines, and built-in commands.
 
-**Tech Stack**: C++, SFML, Minimax with Alpha-Beta Pruning
+**Tech Stack**: C, Unix System Calls, Readline Library
 
 **Key Features**:
-- ⚡ **High-performance AI**: Predicts 10 moves deep in 0.5 seconds
-- 🎯 **Pattern recognition** heuristics for tactical evaluation
-- 🛡️ **Stone capture mechanics** and illegal move detection
-- 🎨 **Graphical interface** with real-time move suggestions
-- 📊 **Performance metrics** display
+- 🔄 **Process Control**: Fork/exec process creation and management
+- 📡 **Pipelines**: Multi-command chaining with pipe operator (`|`)
+- 📁 **Redirections**: Input (`<`), output (`>`), append (`>>`), heredoc (`<<`)
+- 💲 **Variable Expansion**: Environment variables and exit status (`$?`)
+- 🛠️ **Built-ins**: echo, cd, pwd, export, unset, env, exit
+- 📊 **Signal Handling**: CTRL-C, CTRL-D, CTRL-\ (POSIX signals)
+- 🧠 **Memory Safe**: Zero leaks (Valgrind validated)
 
-**Highlights**: Demonstrates deep understanding of game theory, optimization techniques, and algorithmic efficiency. Capable of consistently defeating human players.
+**Embedded Relevance**: Process management, IPC mechanisms, signal handling, POSIX compliance (critical for embedded Linux systems).
 
 ---
+
+### 🧵 [Philosophers](https://github.com/jainavas/philosophers) - Multithreading & Synchronization ⭐ 2
+*42 Common Core | Dining Philosophers Problem*
+
+Classical concurrency challenge implementing thread-safe resource sharing.
+
+**Tech Stack**: C, POSIX Threads (pthread), Mutexes
+
+**Key Features**:
+- ⚡ **Real-time synchronization**: Mutex-based resource locking
+- 🎯 **Deadlock prevention**: Fair resource acquisition strategy
+- 📊 **Precise timing**: Microsecond-accurate state management (<10ms death detection)
+- 🛡️ **Race condition handling**: Thread-safe logging and state updates
+- 🔄 **Resource management**: Efficient fork (resource) allocation
+
+**Embedded Relevance**: RTOS-style task management, critical section handling, timing constraints, essential for real-time embedded systems.
+
+---
+
+### 🎮 [Cub3D](https://github.com/jainavas/cub3d) - Real-Time 3D Raycasting Engine
+*42 Common Core | Graphics Programming*
+
+First-person 3D maze renderer using raycasting (Wolfenstein 3D-style).
+
+**Tech Stack**: C, MinilibX (X11), Raycasting Algorithm, Linear Algebra
+
+**Key Features**:
+- 🎨 **Texture mapping**: Per-direction wall textures
+- ⚡ **Real-time rendering**: 60 FPS without GPU acceleration
+- 🧮 **Mathematical optimization**: Vector/matrix transformations
+- 🎮 **Input handling**: Smooth keyboard controls with collision detection
+- 🗺️ **Config parsing**: Custom `.cub` map format
+
+**Embedded Relevance**: Real-time constraints, CPU-only graphics, memory efficiency (relevant for resource-constrained embedded displays).
+
+---
+
+### 🔀 [Push_swap](https://github.com/jainavas/pushswap) - Algorithm Optimization ⭐ 1
+*42 Common Core | Sorting Algorithm Challenge*
+
+Efficient integer sorting using limited stack operations.
+
+**Tech Stack**: C, Algorithm Design, Complexity Analysis
+
+**Key Features**:
+- 📊 **Optimized sorting**: <700 operations for 100 integers, <5500 for 500
+- 🧠 **Custom algorithm**: Hybrid approach (radix-inspired with chunk sorting)
+- ⚡ **Performance**: O(n log n) average complexity
+- 🔧 **Memory efficient**: Minimal heap allocation
+- 📈 **Edge case handling**: Duplicates, overflow detection
+
+**Embedded Relevance**: Algorithm optimization under resource constraints (critical for microcontroller environments).
+
+---
+
+## 📊 Data Engineering & Machine Learning
 
 ### 🌿 [Leaffliction](https://github.com/jainavas/leaffliction) - Computer Vision Pipeline
 *42 Outer Core | 161 campus completions*
 
-Plant disease classification system using deep learning and computer vision.
+End-to-end ML pipeline for plant disease classification from leaf images.
 
-**Tech Stack**: Python, TensorFlow/PyTorch, OpenCV
+**Tech Stack**: Python, TensorFlow/PyTorch, OpenCV, NumPy, Pandas
 
 **Key Features**:
-- 🔬 **Dataset analysis** with comprehensive visualization
-- 🔄 **Data augmentation** (rotation, distortion, scaling)
-- 🧠 **Transfer learning** for model training
-- 📈 **>90% accuracy** on validation set
-- 🖼️ **Feature extraction** using image transformation methods
+- 🔬 **Dataset analysis**: Statistical EDA with visualization
+- 🔄 **Data augmentation**: Rotation, scaling, distortion for robustness
+- 🧠 **Transfer learning**: Pre-trained CNN fine-tuning
+- 📈 **>90% accuracy**: Production-ready validation metrics
+- 🖼️ **Feature extraction**: Image preprocessing pipeline
 
-**Highlights**: End-to-end machine learning pipeline from data preprocessing to model deployment, showcasing practical AI application in agriculture.
+**Data Engineering Relevance**: ETL pipeline design, data preprocessing at scale, model deployment workflow.
 
 ---
 
-### 🐚 [Minishell](https://github.com/jainavas/minishell) - Unix Shell Implementation
-*42 Common Core*
+### 📊 [DSLR](https://github.com/jainavas/DSLR) - ML from Scratch
+*42 Outer Core | Data Science & Logistic Regression*
 
-Custom shell interpreter built from scratch in C, mimicking bash behavior.
+Hogwarts house classification using logistic regression implemented from scratch.
 
-**Tech Stack**: C, Unix System Calls, Process Management
+**Tech Stack**: Python, NumPy, Pandas, Matplotlib
 
 **Key Features**:
-- 📝 **Command parsing** with lexical analysis
-- 🔀 **Pipes & redirections** for complex I/O operations
-- 🌐 **Environment variables** with full expansion support
-- 🏗️ **Built-in commands**: cd, echo, pwd, export, unset, env, exit
-- 🔄 **Process management**: fork, exec, signal handling
+- 📈 **Statistical analysis**: Descriptive statistics (mean, std, quartiles) from scratch
+- 📊 **Data visualization**: Histograms, scatter plots, pair plots
+- 🧠 **Logistic regression**: Gradient descent optimization (no sklearn)
+- 🎯 **Multi-class classification**: One-vs-all strategy
+- 📉 **Feature correlation**: Discriminative feature identification
 
-**Highlights**: Deep dive into Unix internals, file descriptors, process synchronization, and strict memory management following 42's rigorous coding standards.
+**Data Engineering Relevance**: Statistical computing, data exploration, ML fundamentals without black-box libraries.
 
 ---
 
-### 🎯 [Cub3D](https://github.com/jainavas/cub3d) - 3D Graphics Engine
-*42 Common Core*
+### 🐍 [Learn2Slither](https://github.com/jainavas/Learn2Slither) - Reinforcement Learning
+*42 Outer Core | Q-Learning Agent*
 
-Raycasting-based 3D game engine inspired by Wolfenstein 3D.
+Snake game AI using Q-Learning and experience replay.
 
-**Tech Stack**: C, miniLibX, Mathematical Algorithms
+**Tech Stack**: Python, Q-Learning, Pygame
 
 **Key Features**:
-- 🎨 **Raycasting engine** for real-time 3D rendering from 2D maps
-- 🎮 **Interactive gameplay** with smooth movement and collision detection
-- 🗺️ **Custom map parser** with texture support
-- ⚡ **Performance optimized** for real-time rendering
+- 🤖 **Q-Learning agent**: State-action-reward training loop
+- 🔄 **Experience replay**: Learn from successful trajectories
+- 📊 **State compression**: Efficient state representation
+- 📈 **Hyperparameter tuning**: Epsilon decay, learning rate optimization
+- 🎮 **Visual training**: Real-time game visualization during training
 
-**Highlights**: Mathematical precision in graphics programming and low-level graphics manipulation.
+**Data Engineering Relevance**: Training pipeline design, state management, performance metrics tracking.
 
 ---
 
-### 🐳 [Inception](https://github.com/jainavas/inception) - Infrastructure as Code
-*42 Common Core*
+### 🎮 [Transcendence](https://github.com/jainavas/transcendence) - Full-Stack Platform ⭐ 1
+*42 Common Core Final | Success Rate: 7%*
 
-Multi-container Docker application with production-ready infrastructure.
+Real-time multiplayer Pong with microservices architecture.
 
-**Tech Stack**: Docker, Docker Compose, Nginx, WordPress, MariaDB
+**Tech Stack**: TypeScript, Node.js (Fastify), SQLite, Docker, WebSockets
 
 **Key Features**:
-- 🏗️ **Container orchestration** with multi-service architecture
-- 🔐 **Security configuration**: SSL/TLS, network isolation
-- 📊 **Database management** with persistent volumes
-- 🌐 **Reverse proxy** with Nginx load balancing
-- 🚀 **Automated deployment** following IaC principles
+- 📊 **Database design**: Relational schema for users, matches, stats
+- 📈 **Monitoring**: Grafana + Prometheus for metrics
+- 🔄 **Real-time data**: WebSocket-based event streaming
+- 🏆 **Analytics**: Leaderboards, statistics aggregation
+- 🐳 **Infrastructure**: Docker Compose orchestration
 
-**Highlights**: DevOps best practices, containerization strategies, and scalable deployment configurations.
+**Data Engineering Relevance**: Database design, real-time data streaming, monitoring infrastructure, microservices.
 
 ---
 
-## 💻 Technical Skills
+## 🛠️ Technical Skills
 
-**Languages**
-- **Systems**: C, C++
-- **General Purpose**: Python, TypeScript, JavaScript, Bash
-- **Query**: SQL
+### **Languages**
+![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Assembly](https://img.shields.io/badge/Assembly-654FF0?style=flat&logo=assemblyscript&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 
-**Web & Frameworks**
-- **Backend**: Node.js, Fastify, Express
-- **Frontend**: React, Tailwind CSS, HTML/CSS
-- **Graphics**: Babylon.js, SFML, miniLibX
+### **Embedded & Systems**
+- **Concurrency**: POSIX Threads, Mutex, Semaphores
+- **IPC**: Pipes, Signals, Shared Memory
+- **System Calls**: Process management, File I/O
+- **Virtual Machines**: Custom VM architecture, bytecode execution
+- **Memory Management**: Manual allocation, leak prevention
+- **Performance**: Real-time constraints, optimization
+- **Assembly**: x86, ARM architectures
 
-**Data & AI**
-- **Machine Learning**: TensorFlow, PyTorch, scikit-learn
-- **Computer Vision**: OpenCV, Image Processing
-- **Algorithms**: Minimax, Alpha-Beta Pruning, Transfer Learning, Data Augmentation
-
-**Databases**
-- PostgreSQL, MongoDB, SQLite
-
-**DevOps & Tools**
-- **Containers**: Docker, Docker Compose
+### **Data Engineering & ML**
+- **Data Processing**: Pandas, NumPy, ETL pipelines
+- **Machine Learning**: TensorFlow, PyTorch, Scikit-learn
+- **Computer Vision**: OpenCV, Image preprocessing
+- **Databases**: SQL (SQLite, PostgreSQL)
 - **Monitoring**: Grafana, Prometheus
-- **Version Control**: Git, GitHub
-- **OS**: Linux, Unix, Bash scripting
 
-**Soft Skills**
-- Autonomous learning, Problem-solving, Collaborative teamwork, Adaptability
-
----
-
-## 🏆 Achievements
-
-- ✅ **42 Common Core** completed in 8 months (average: 3 years)
-- 🎯 **Top-tier projects**: Transcendence (7% success rate), Gomoku, Leaffliction
-- 🤝 **University tutor** for C/C++ (12 students, 100% pass rate)
-- 📚 **Active contributor** to 42's peer-to-peer learning system
-- 🚀 **Continuous learner** in Data Engineering, AI, and modern DevOps
+### **Tools & DevOps**
+- **Containerization**: Docker, Docker Compose
+- **Version Control**: Git, GitHub workflows
+- **Build Tools**: Make, CMake
+- **Debugging**: GDB, Valgrind, AddressSanitizer
+- **Scripting**: Python, Bash
 
 ---
 
-## 📊 Current Focus
+## 🔗 More Projects
 
-- 📈 **Data Engineering**: Building scalable data pipelines and distributed systems
-- 🤖 **Machine Learning**: Deep learning, computer vision, reinforcement learning
-- 🌐 **Modern Web**: Full-stack development with TypeScript and Node.js
-- ⚙️ **DevOps**: Container orchestration, infrastructure automation, monitoring
+Explore my full portfolio: [github.com/jainavas](https://github.com/jainavas?tab=repositories)
 
----
-
-## 📫 Get In Touch
-
-- 💼 **LinkedIn**: [linkedin.com/in/jaimenavascues-p](https://www.linkedin.com/in/jaimenavascues-p/)
-- 📧 **Email**: [jaimeipod99@gmail.com](mailto:jaimeipod99@gmail.com)
-- 🌐 **Website**: [jainavas.me](https://jainavas.me)
-- 🐙 **GitHub**: You're already here!
+Notable mentions:
+- **[Lem-in](https://github.com/jainavas/lem-in)** ⭐ 1 - Graph algorithms & flow optimization (C)
+- **[Gomoku](https://github.com/jainavas/gomoku)** - AI game engine with minimax (C++)
+- **[Pipex](https://github.com/jainavas/pipex)** - Unix pipe mechanism implementation (C)
 
 ---
 
-<div align="center">
-  
-### 💡 Open to opportunities in Software Development, Data Engineering, and AI/ML
+## 📫 Let's Connect
 
-*"Building efficient systems and intelligent solutions, one line of code at a time."*
+I'm actively seeking opportunities as:
+- 🔧 **Embedded Software Engineer** (C/C++) - RTOS, drivers, firmware, virtual machines
+- 📊 **Data Engineer** - ETL pipelines, data infrastructure, ML deployment
 
-</div>
+💼 [LinkedIn]([https://linkedin.com/in/jai](https://www.linkedin.com/in/jaimenavascues-p/))  
+🌐 [Portfolio](https://jainavas.me)
+
+---
+
+*Last updated: February 2026*
